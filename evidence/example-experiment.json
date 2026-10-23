@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "modelVersion": "buck-switching-1.0.0",
+  "mode": "learn",
+  "case": "load",
+  "intervention": "load",
+  "before": {
+    "config": {
+      "vin": 12,
+      "target": 5,
+      "frequency": 100000,
+      "inductance": 0.0001,
+      "capacitance": 0.00047,
+      "esr": 0.04,
+      "dcr": 0.08,
+      "baseLoad": 1,
+      "pulseLoad": 2,
+      "sagVoltage": 12,
+      "eventStart": 0.002,
+      "eventEnd": 0.006,
+      "duration": 0.012,
+      "warmup": 0.015,
+      "subdivisions": 50,
+      "excitation": true
+    },
+    "metrics": {
+      "minimum": 4.552755415728134,
+      "droop": 0.447244584271866,
+      "ripple": 0.011719863622812632,
+      "recovery": 0.0009750000000000002,
+      "overshoot": 0.44747200949794497,
+      "inputMinimum": 12,
+      "loadPeak": 2,
+      "steadyMean": 5.000043496379501,
+      "withinReference": false
+    }
+  },
+  "after": {
+    "config": {
+      "vin": 12,
+      "target": 5,
+      "frequency": 100000,
+      "inductance": 0.0001,
+      "capacitance": 0.00047,
+      "esr": 0.04,
+      "dcr": 0.08,
+      "baseLoad": 1,
+      "pulseLoad": 1.5,
+      "sagVoltage": 12,
+      "eventStart": 0.002,
+      "eventEnd": 0.006,
+      "duration": 0.012,
+      "warmup": 0.015,
+      "subdivisions": 50,
+      "excitation": true
+    },
+    "metrics": {
+      "minimum": 4.773409485530337,
+      "droop": 0.22659051446966316,
+      "ripple": 0.011719863622812632,
+      "recovery": 0.0008250000000000002,
+      "overshoot": 0.2266345132475589,
+      "inputMinimum": 12,
+      "loadPeak": 1.5,
+      "steadyMean": 5.000021725213092,
+      "withinReference": true
+    }
+  },
+  "observations": {
+    "vout": {
+      "minimum": 4.552755415728134,
+      "ripple": 0.011719863622812632,
+      "recovery": 0.0009750000000000002
+    },
+    "vin": {
+      "minimum": 12,
+      "nominal": 12
+    },
+    "iout": {
+      "peak": 2,
+      "expected": 1.5
+    }
+  },
+  "verified": true
+}

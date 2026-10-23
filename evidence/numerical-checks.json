@@ -1,0 +1,115 @@
+{
+  "modelVersion": "buck-switching-1.0.0",
+  "generatedAt": "2026-10-22T14:59:56.393Z",
+  "runtimeMs": 145.33575,
+  "cases": [
+    {
+      "kind": "healthy",
+      "metrics": {
+        "minimum": 4.773409485530337,
+        "droop": 0.22659051446966316,
+        "ripple": 0.011719863622812632,
+        "recovery": 0.0008250000000000002,
+        "overshoot": 0.2266345132475589,
+        "inputMinimum": 12,
+        "loadPeak": 1.5,
+        "steadyMean": 5.000021725213092,
+        "withinReference": true
+      },
+      "samples": 63600,
+      "minimumRefinementErrorV": 0.000017316455276805698,
+      "repaired": {
+        "minimum": 4.773409485530337,
+        "droop": 0.22659051446966316,
+        "ripple": 0.011719863622812632,
+        "recovery": 0.0008250000000000002,
+        "overshoot": 0.2266345132475589,
+        "inputMinimum": 12,
+        "loadPeak": 1.5,
+        "steadyMean": 5.000021725213092,
+        "withinReference": true
+      }
+    },
+    {
+      "kind": "input",
+      "metrics": {
+        "minimum": 4.161093189845415,
+        "droop": 0.8389068101545849,
+        "ripple": 0.011719863622812632,
+        "recovery": 0.0011550000000000002,
+        "overshoot": 0.8915781927796278,
+        "inputMinimum": 9,
+        "loadPeak": 1.5,
+        "steadyMean": 5.000102206803548,
+        "withinReference": false
+      },
+      "samples": 63600,
+      "minimumRefinementErrorV": 0.000012443930160088712,
+      "repaired": {
+        "minimum": 4.773409485530337,
+        "droop": 0.22659051446966316,
+        "ripple": 0.011719863622812632,
+        "recovery": 0.0008250000000000002,
+        "overshoot": 0.2266345132475589,
+        "inputMinimum": 12,
+        "loadPeak": 1.5,
+        "steadyMean": 5.000021725213092,
+        "withinReference": true
+      }
+    },
+    {
+      "kind": "load",
+      "metrics": {
+        "minimum": 4.552755415728134,
+        "droop": 0.447244584271866,
+        "ripple": 0.011719863622812632,
+        "recovery": 0.0009750000000000002,
+        "overshoot": 0.44747200949794497,
+        "inputMinimum": 12,
+        "loadPeak": 2,
+        "steadyMean": 5.000043496379501,
+        "withinReference": false
+      },
+      "samples": 63600,
+      "minimumRefinementErrorV": 0.00003402096879234762,
+      "repaired": {
+        "minimum": 4.773409485530337,
+        "droop": 0.22659051446966316,
+        "ripple": 0.011719863622812632,
+        "recovery": 0.0008250000000000002,
+        "overshoot": 0.2266345132475589,
+        "inputMinimum": 12,
+        "loadPeak": 1.5,
+        "steadyMean": 5.000021725213092,
+        "withinReference": true
+      }
+    },
+    {
+      "kind": "capacitor",
+      "metrics": {
+        "minimum": 4.590823687476756,
+        "droop": 0.40917631252324416,
+        "ripple": 0.05275595347742268,
+        "recovery": 0.0003550000000000003,
+        "overshoot": 0.40825317185635424,
+        "inputMinimum": 12,
+        "loadPeak": 1.5,
+        "steadyMean": 5.00000023198207,
+        "withinReference": false
+      },
+      "samples": 63600,
+      "minimumRefinementErrorV": 0.000044650517430078196,
+      "repaired": {
+        "minimum": 4.773409485530337,
+        "droop": 0.22659051446966316,
+        "ripple": 0.011719863622812632,
+        "recovery": 0.0008250000000000002,
+        "overshoot": 0.2266345132475589,
+        "inputMinimum": 12,
+        "loadPeak": 1.5,
+        "steadyMean": 5.000021725213092,
+        "withinReference": true
+      }
+    }
+  ]
+}

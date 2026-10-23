@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-22",
+  "browser": "Codex in-app browser",
+  "desktop": {
+    "assets": [
+      "http://127.0.0.1:8771/style.css",
+      "http://127.0.0.1:8771/app.js"
+    ],
+    "height": 900,
+    "metrics": [
+      "4.55V",
+      "447mV",
+      "11.7mV",
+      "0.98ms"
+    ],
+    "scrollWidth": 1440,
+    "width": 1440
+  },
+  "mobileChinese": {
+    "height": 844,
+    "metrics": [
+      "4.55V",
+      "447mV",
+      "11.7mV",
+      "0.98ms"
+    ],
+    "scrollWidth": 390,
+    "width": 390
+  },
+  "mobileEnglish": {
+    "scrollWidth": 390,
+    "untranslated": [],
+    "width": 390
+  },
+  "keyboardProbe": "电感电流不能突变",
+  "cases": [
+    {
+      "case": 1,
+      "feedback": "Diagnosis and verification complete",
+      "progress": "Completed 1 / 3",
+      "exportEnabled": true
+    },
+    {
+      "case": 2,
+      "feedback": "Diagnosis and verification complete",
+      "progress": "Completed 2 / 3",
+      "exportEnabled": true
+    },
+    {
+      "case": 3,
+      "feedback": "Diagnosis and verification complete",
+      "progress": "Completed 3 / 3",
+      "exportEnabled": true
+    }
+  ],
+  "browserErrors": [],
+  "jsonExportVerified": true,
+  "csvExportRows": 63601,
+  "csvExportBytes": 5614199,
+  "dialogEscapeAndFocusReturn": true
+}

@@ -1,0 +1,14 @@
+{
+  "name": "power-diagnostics-bench",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "An offline, bilingual Buck converter diagnostic learning bench.",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "build": "node scripts/build.mjs",
+    "check": "node --test tests/*.test.mjs",
+    "verify": "node scripts/verify.mjs"
+  }
+}
